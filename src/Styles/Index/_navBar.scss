@@ -1,6 +1,8 @@
 .navbar-section{
   width: 100%;
   height: auto;
+  position: fixed;
+  background-color: rgba(87, 87, 87, 0.36);
 
   .navbar-content{
     max-width: 1000px;

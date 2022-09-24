@@ -1,0 +1,45 @@
+.about-us-section{
+  margin-top: 210px;
+  width: 100%;
+  height: auto;
+
+  .about-us-container{
+    width: 95%;
+    margin: 0 auto;
+
+    .about-us-container--h2{
+      margin: 0 auto;
+      max-width: 1000px;
+
+      h2{
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 300;
+      }
+    }
+
+    .about-us-container--p{
+      margin-top: 20px;
+
+      p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .about-us-container--img{
+      display: inline-block;
+      min-width: 1024px;
+      max-width: 1440px;
+      height: 510px;
+      margin: 0 auto;
+      background-image: url("../../img/AboutUs.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+}
