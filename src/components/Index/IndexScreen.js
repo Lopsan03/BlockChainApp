@@ -1,6 +1,7 @@
 import {NavBar} from "./NavBar";
 import {IndexHero} from "./IndexHero";
 import {IndexAboutUs} from "./IndexAboutUs";
+import {IndexWhyXcoin} from "./IndexWhyXcoin";
 
 export const IndexScreen = () =>{
     return(
@@ -8,6 +9,7 @@ export const IndexScreen = () =>{
             <NavBar/>
             <IndexHero/>
             <IndexAboutUs/>
+            <IndexWhyXcoin/>
         </>
     )
 }
