@@ -1,12 +1,17 @@
 .why-xcoin-section{
   width: 100%;
   height: auto;
+  padding-bottom: 150px;
 
   .why-xcoin-container{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
+    margin-top: 100px;
 
     .why-xcoin-container--title{
+      max-width: 77%;
+      margin: 0 auto;
+
       h2{
         color: #ffffff;
         font-size: 40px;
@@ -16,22 +21,87 @@
 
     .why-xcoin-container-information{
       display: flex;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
+      margin-top: 60px;
 
       .why-xcoin--information-section{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, 233px);
 
         .why-xcoin--information--divisor{
-          background-color: rgba(63, 63, 63, 0.37);
+          width: 243px;
+          height: 233px;
+          padding-top: 50px;
+          left: 28px;
+          top: 348px;
+          background: rgba(0, 0, 0, 0.2);
+          border-radius: 50px;
 
           h3{
             color: #ffffff;
             text-align: center;
+            font-size: 30px;
+            margin-bottom: 25px;
+          }
+
+          .bounced-icon{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            margin: 0 auto;
+            background-image: url("../../img/BouncedCheck.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .pig-icon{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            margin: 0 auto;
+            background-image: url("../../img/MoneyBox.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .pay-icon{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            margin: 0 auto;
+            background-image: url("../../img/Pay.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .change-icon{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            margin: 0 auto;
+            background-image: url("../../img/DollarBitcoinExchange.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
           }
         }
+      }
+
+      .left-image-xcoin{
+        width: 100%;
+        height: 475px;
+        display: flex;
+        margin: 0 auto;
+        background-image: url("../../img/image5.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     }
   }
