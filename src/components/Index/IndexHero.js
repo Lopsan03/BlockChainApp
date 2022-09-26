@@ -14,7 +14,7 @@ export const IndexHero = () =>{
                         Our priority is your proteccion</p>
                 </div>
                 <div className={"hero-container--link"}>
-                    <Link className={"hero-link"} to={"/"}>Get Started <span></span></Link>
+                    <Link className={"hero-link"} to={"/LoginSignUp"}>Get Started <span></span></Link>
                 </div>
             </article>
         </section>

@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route} from "react-router-dom";
 import {Routes} from 'react-router'
 import {IndexScreen} from "./components/Index/IndexScreen";
+import {LogInSignUpScreen} from "./components/LogInSignUp/LogInSignUpScreen";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
       <BrowserRouter>
           <Routes>
             <Route path={"/"} element={<IndexScreen/>}/>
+            <Route path={"/LoginSignUp"} element={<LogInSignUpScreen/>}/>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>

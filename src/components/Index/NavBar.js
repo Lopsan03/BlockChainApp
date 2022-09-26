@@ -13,7 +13,7 @@ export const NavBar = () =>{
                     <button className={"navbar-button"}>Why XCOIN</button>
                 </div>
                 <div className={"navbar-container--link"}>
-                    <Link className={"navbar-link"} to={"/"}>Gat Started<span></span></Link>
+                    <Link className={"navbar-link"} to={"/LoginSignUp"}>Gat Started<span></span></Link>
                 </div>
             </article>
         </section>
