@@ -1,0 +1,16 @@
+.ls-navbar-section{
+  width: 100%;
+  height: auto;
+
+  .ls-navbar-container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .ls-navbar-link{
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 35px;
+    }
+  }
+}
