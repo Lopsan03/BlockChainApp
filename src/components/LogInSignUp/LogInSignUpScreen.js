@@ -1,11 +1,11 @@
 import {IconSelectionHeader} from "./IconSelectionHeader";
-import {LoginSection} from "./LogIn/LoginSection";
+import {LoginSignUpSection} from "./LogInSignUp/LoginSignUpSection";
 
 export const LogInSignUpScreen = () =>{
     return(
         <>
             <IconSelectionHeader/>
-            <LoginSection/>
+            <LoginSignUpSection/>
         </>
     )
 }
