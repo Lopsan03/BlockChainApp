@@ -6,10 +6,10 @@ import {IndexWhyXcoin} from "./IndexWhyXcoin";
 export const IndexScreen = () =>{
     return(
         <>
-            <NavBar/>
-            <IndexHero/>
-            <IndexAboutUs/>
-            <IndexWhyXcoin/>
+            <NavBar ids={IndexHero.id}/>
+            <IndexHero id={"Hero"}/>
+            <IndexAboutUs id={"AboutUs"}/>
+            <IndexWhyXcoin id={"WhyXcoin"}/>
         </>
     )
 }

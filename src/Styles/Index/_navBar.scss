@@ -21,14 +21,23 @@
     .navbar-container--button{
       //padding-top: 30px;
       display: flex;
+      justify-content: center;
+
       gap: 40px;
 
-      .navbar-button{
+      .navbar-button-true{
         background-color: rgba(255, 255, 255, 0);
         color: #fff;
         border: none;
         font-size: 19px;
         text-decoration: underline;
+      }
+
+      .navbar-button-false{
+        background-color: rgba(255, 255, 255, 0);
+        color: #fff;
+        border: none;
+        font-size: 19px;
       }
     }
 

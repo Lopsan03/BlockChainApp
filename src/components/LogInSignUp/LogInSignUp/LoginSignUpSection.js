@@ -36,7 +36,7 @@ export const LoginSignUpSection = () =>{
                         <input placeholder={"Password"} type={"password"}/>
                     </div>
                     <div className={"login-container--link"}>
-                        <Link className={"login-link"} to={"/"}>Confirm</Link>
+                        <Link className={"login-link"} to={"/DashBoard"}>Confirm</Link>
                     </div>
                     <div className={"login-container--button"}>
                         <button onClick={displaySignup}><p>Doesn't Account?<br/> Make a new one</p></button>
@@ -71,7 +71,7 @@ export const LoginSignUpSection = () =>{
                         <input placeholder={"SMS Code"} type={"text"}/>
                     </div>
                     <div className={"verf-container--link"}>
-                        <button className={"verf-button"}>Confirm</button>
+                        <Link to={"/DashBoard"} className={"verf-button"}>Confirm</Link>
                     </div>
                     <div className={"verf-container--button"}>
                         <button onClick={displayLogin}><p>Do you have an account?<br/>Get in!</p></button>

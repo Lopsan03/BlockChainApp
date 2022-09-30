@@ -6,6 +6,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import {Routes} from 'react-router'
 import {IndexScreen} from "./components/Index/IndexScreen";
 import {LogInSignUpScreen} from "./components/LogInSignUp/LogInSignUpScreen";
+import {DashBoardScreen} from "./components/DashBoard/DashBoardScreen";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
           <Routes>
             <Route path={"/"} element={<IndexScreen/>}/>
             <Route path={"/LoginSignUp"} element={<LogInSignUpScreen/>}/>
+            <Route path={"/DashBoard"} element={<DashBoardScreen/>}/>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>
