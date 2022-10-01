@@ -1,0 +1,39 @@
+.dsbd-navbar-section{
+  width: 100%;
+  height: auto;
+
+  .dsbd-navbar-container{
+    width: 90%;
+    margin: 0 auto;
+
+    .dsbd-main-logo--div{
+      display: flex;
+      flex-direction: column;
+
+      .dsbd-main-logo-link{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 50px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+
+    .dsbd-data-options--div{
+      margin: 0 auto;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: 70%;
+
+      .dsbr-link{
+        color: #ffffff;
+        text-align: left;
+        text-decoration: none;
+        font-size: 25px;
+
+      }
+    }
+  }
+}

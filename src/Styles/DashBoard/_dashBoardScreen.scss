@@ -1,0 +1,18 @@
+@import "dsBdNavBar";
+
+.dash-board-structure--flex{
+  display: flex;
+  width: 100%;
+  //min-height: 720px;
+  height: 100vh;
+
+  .navbar-left--container{
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+
+  .content-right--container{
+
+  }
+}
