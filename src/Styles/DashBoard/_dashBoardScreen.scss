@@ -1,4 +1,5 @@
 @import "dsBdNavBar";
+@import "dsbdNavBarTop";
 
 .dash-board-structure--flex{
   display: flex;
@@ -13,6 +14,7 @@
   }
 
   .content-right--container{
-
+    width: 100%;
+    height: 100vw;
   }
 }

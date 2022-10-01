@@ -25,10 +25,13 @@ export const DashBoardScreen = () =>{
         <>
             <section className={"dash-board-structure--flex"}>
                 <article className={"navbar-left--container"}>
-                    <DsBdNavBar/>
+                    <DsBdNavBar setHome={namedTitleHome}
+                                setTransactions={namedTitleTransactions}
+                                setPay={namedTitlePay}
+                                setSavings={namedTitleSavings}/>
                 </article>
                 <article className={"content-right--container"}>
-                    <DsBdNavBarTop title={title} setHome={namedTitleHome}/>
+                    <DsBdNavBarTop title={title}/>
                 </article>
             </section>
         </>
