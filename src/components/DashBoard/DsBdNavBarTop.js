@@ -8,7 +8,7 @@ export const DsBdNavBarTop = ({title}) =>{
                     <h2>{title}</h2>
                 </div>
                 <div className={"navbar-top-options"}>
-                    <button><span></span></button>
+                    <button onClick={() => {alert("Function doesn't added")}}><span></span></button>
                     <Link className={"navbar-top-link"} to={"/"}>Log Out</Link>
                 </div>
             </article>
