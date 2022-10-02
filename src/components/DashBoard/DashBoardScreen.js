@@ -1,6 +1,7 @@
 import {DsBdNavBar} from "./DsBdNavBar";
 import {DsBdNavBarTop} from "./DsBdNavBarTop";
 import {useState} from "react";
+import {DsBdHome} from "./Home/DsBdHome";
 
 export const DashBoardScreen = () =>{
     const [title, setTile] = useState("Home")
@@ -62,6 +63,7 @@ export const DashBoardScreen = () =>{
                 </article>
                 <article className={"content-right--container"}>
                     <DsBdNavBarTop title={title}/>
+                    <DsBdHome/>
                 </article>
             </section>
         </>
