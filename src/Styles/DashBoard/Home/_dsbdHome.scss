@@ -4,7 +4,27 @@
 
   .dsbd-home-section{
     margin: 0 auto;
-    width: 90%;
+    max-width: 1050px;
 
+    .home-divisor--top{
+      display: flex;
+      gap: 10px;
+      background-color: rgba(0,0,0,0.2);
+      border-radius: 40px;
+      height: 300px;
+      width: 100%;
+      overflow-x: scroll;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+
+      button{
+        width: 300px;
+        height: 180px;
+      }
+    }
+
+    .home-divisor--top::-webkit-scrollbar{
+      //display: none;
+    }
   }
 }
