@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export const DsBdNavBar = () =>{
+export const DsBdNavBar = ({setHome, displayHome, setTransactions, displayTransactions, setPay, displayPay, setSavings, displaySaving}) =>{
     return(
         <section className={"dsbd-navbar-section"}>
             <article className={"dsbd-navbar-container"}>
@@ -8,10 +8,10 @@ export const DsBdNavBar = () =>{
                     <Link className={"dsbd-main-logo-link"} to={"/DashBoard"}>XCOIN</Link>
                 </div>
                 <div className={"dsbd-data-options--div"}>
-                    <Link to={"/DashBoard"} className={"dsbr-link"}>Home</Link>
-                    <Link to={"/DashBoard"} className={"dsbr-link"}>Transactions</Link>
-                    <Link to={"/DashBoard"} className={"dsbr-link"}>Pay</Link>
-                    <Link to={"/DashBoard"} className={"dsbr-link"}>Savings</Link>
+                    <button onClick={setHome} className={displayHome ? "dsbr-link-true" : "dsbr-link-false"}>Home</button>
+                    <button onClick={setTransactions} className={displayTransactions ? "dsbr-link-true" : "dsbr-link-false"}>Transactions</button>
+                    <button onClick={setPay} className={displayPay ? "dsbr-link-true" : "dsbr-link-false"}>Pay</button>
+                    <button onClick={setSavings} className={displaySaving ? "dsbr-link-true" : "dsbr-link-false"}>Savings</button>
                 </div>
             </article>
         </section>

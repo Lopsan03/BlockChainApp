@@ -4,21 +4,46 @@ import {useState} from "react";
 
 export const DashBoardScreen = () =>{
     const [title, setTile] = useState("Home")
+    const [displayHome, setDisplayHome] = useState(true)
+    const [displayTransactions, setDisplayTransactions] = useState(false)
+    const [displayPay, setDisplayPay] = useState(false)
+    const [displaySavings, setDisplaySavings] = useState(false)
+
 
     const namedTitleHome = () => {
-      setTile("Home")
+        setTile("Home")
+
+        setDisplayHome(true)
+        setDisplayTransactions(false)
+        setDisplayPay(false)
+        setDisplaySavings(false)
     }
 
     const namedTitleTransactions = () => {
-      setTile("Transactions")
+        setTile("Transactions")
+
+        setDisplayHome(false)
+        setDisplayTransactions(true)
+        setDisplayPay(false)
+        setDisplaySavings(false)
     }
 
     const namedTitlePay = () => {
-      setTile("Pay")
+        setTile("Pay")
+
+        setDisplayHome(false)
+        setDisplayTransactions(false)
+        setDisplayPay(true)
+        setDisplaySavings(false)
     }
 
     const namedTitleSavings = () => {
-      setTile("Savings")
+        setTile("Savings")
+
+        setDisplayHome(false)
+        setDisplayTransactions(false)
+        setDisplayPay(false)
+        setDisplaySavings(true)
     }
 
     return(
@@ -28,7 +53,12 @@ export const DashBoardScreen = () =>{
                     <DsBdNavBar setHome={namedTitleHome}
                                 setTransactions={namedTitleTransactions}
                                 setPay={namedTitlePay}
-                                setSavings={namedTitleSavings}/>
+                                setSavings={namedTitleSavings}
+                                displayHome={displayHome}
+                                displayTransactions={displayTransactions}
+                                displayPay={displayPay}
+                                displaySaving={displaySavings}
+                    />
                 </article>
                 <article className={"content-right--container"}>
                     <DsBdNavBarTop title={title}/>

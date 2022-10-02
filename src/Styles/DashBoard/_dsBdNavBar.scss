@@ -27,12 +27,22 @@
       gap: 40px;
       width: 70%;
 
-      .dsbr-link{
+      .dsbr-link-true{
+        color: #ffffff;
+        text-align: left;
+        text-decoration: underline;
+        font-size: 25px;
+        background-color: transparent;
+        border: none;
+      }
+
+      .dsbr-link-false{
         color: #ffffff;
         text-align: left;
         text-decoration: none;
         font-size: 25px;
-
+        background-color: transparent;
+        border: none;
       }
     }
   }
