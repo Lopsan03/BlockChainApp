@@ -6,8 +6,12 @@
   .dsbd-pay-container{
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
     margin: 0 auto;
-    width: 50%;
+    padding-top: 40px;
+    max-width: 600px;
     height: 600px;
 
     .top-table--div{
@@ -17,7 +21,26 @@
         color: #ffffff;
         text-align: center;
         font-weight: 300;
-        font-size: 23px;
+        font-size: 35px;
+      }
+    }
+
+    .middle-table--div{
+
+    }
+
+    .bottom-table--div{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      button{
+        border: none;
+        border-radius: 30px;
+        background-color: #ffffff;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
       }
     }
   }

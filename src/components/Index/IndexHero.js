@@ -5,7 +5,7 @@ export const IndexHero = () =>{
         <section className={"hero-section"}>
             <article className={"hero-container"}>
                 <div className={"hero-container--title"}>
-                    <h1>Modern BlockChain<br/>Finance DApp<br/>Faster and Safer!</h1>
+                    <h1>Modern BlockChain<br/>Finance Dapp<br/>Faster and Safer!</h1>
                 </div>
                 <div className={"hero-container--p"}>
                     <p>Welcome to the new world of transaccions<br/>

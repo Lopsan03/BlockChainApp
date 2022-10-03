@@ -7,7 +7,7 @@ export const DsBdPay = ({display}) =>{
                 </div>
                 <div className={"middle-table--div"}></div>
                 <div className={"bottom-table--div"}>
-                    <button>Confirm</button>
+                    <button onClick={() => alert("Cachiporra disporra")}>Confirm</button>
                 </div>
             </article>
         </section>
