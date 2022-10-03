@@ -71,9 +71,10 @@
         width: 350px;
 
         div{
-          display: inline-block;
-          margin-top: 10px;
+          display: flex;
+          margin-top: 40px;
           width: 100%;
+          justify-content: center;
 
           h3{
             color: #ffffff;
@@ -83,8 +84,12 @@
           }
 
           p{
+            margin-top: 70px;
             color: #ffffff;
-            justify-content: center;
+            text-align: center;
+            font-size: 30px;
+            border-bottom: solid 1px #ffffff;
+            width: 150px;
           }
         }
       }
