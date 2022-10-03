@@ -1,4 +1,5 @@
 .dsbd-home-section{
+  margin-top: 20px;
   width: 100%;
   height: auto;
 
@@ -8,23 +9,86 @@
 
     .home-divisor--top{
       display: flex;
+      justify-content: center;
       gap: 10px;
       background-color: rgba(0,0,0,0.2);
       border-radius: 40px;
       height: 300px;
       width: 100%;
+      padding-top: 55px;
       overflow-x: scroll;
       overscroll-behavior-x: contain;
-      scroll-snap-type: x proximity;
 
       button{
         width: 300px;
         height: 180px;
+        background-image: url("../../../img/Card.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 10px;
       }
     }
 
     .home-divisor--top::-webkit-scrollbar{
       //display: none;
     }
+
+    .home-divisor--down{
+      display: flex;
+      justify-content: center;
+      gap: 90px;
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+
+      .home-divisor--left{
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 40px;
+        padding-top: 30px;
+        height: 350px;
+        width: 700px;
+
+        div{
+          border-top: solid 1px #ffffff;
+          border-bottom: solid 1px #ffffff;
+          height: 30px;
+          padding-top: 5px;
+          display: flex;
+          justify-content: center;
+          gap: 70px;
+
+          span{
+            color: #ffffff;
+          }
+        }
+      }
+
+      .home-divisor--right{
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 40px;
+        width: 350px;
+
+        div{
+          display: inline-block;
+          margin-top: 10px;
+          width: 100%;
+
+          h3{
+            color: #ffffff;
+            text-align: center;
+            font-weight: 300;
+            font-size: 30px;
+          }
+
+          p{
+            color: #ffffff;
+            justify-content: center;
+          }
+        }
+      }
+    }
+
   }
 }

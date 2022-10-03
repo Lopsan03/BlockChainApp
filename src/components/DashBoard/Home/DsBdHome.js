@@ -23,7 +23,7 @@ export const DsBdHome = () =>{
                             <h3>Balance</h3>
                         </div>
                         <div>
-                            <p></p>
+                            <p>6000$</p>
                         </div>
                     </section>
                 </div>
