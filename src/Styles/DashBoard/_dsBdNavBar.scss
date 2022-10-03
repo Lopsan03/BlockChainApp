@@ -36,6 +36,7 @@
         border: none;
       }
 
+
       .dsbr-link-false{
         color: #ffffff;
         text-align: left;
@@ -43,6 +44,11 @@
         font-size: 25px;
         background-color: transparent;
         border: none;
+        transition: 0.2s;
+      }
+
+      .dsbr-link-false:hover{
+        color: #d2bae1;
       }
     }
   }

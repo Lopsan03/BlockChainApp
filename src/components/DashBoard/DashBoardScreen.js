@@ -4,6 +4,7 @@ import {useState} from "react";
 import {DsBdHome} from "./Home/DsBdHome";
 import {DsBdTransactions} from "./Transactions/DsBdTransactions";
 import {DsBdPay} from "./Pay/DsBdPay";
+import {DsBdSavings} from "./Savings/DsBdSavings";
 
 export const DashBoardScreen = () =>{
     const [title, setTile] = useState("Home")
@@ -68,6 +69,7 @@ export const DashBoardScreen = () =>{
                     <DsBdHome display={displayHome}/>
                     <DsBdTransactions display={displayTransactions}/>
                     <DsBdPay display={displayPay}/>
+                    <DsBdSavings display={displaySavings}/>
                 </article>
             </section>
         </>

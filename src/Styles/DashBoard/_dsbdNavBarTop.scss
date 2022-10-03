@@ -51,6 +51,12 @@
       border-radius: 30px;
       height: 40px;
       width: 150px;
+      transition: 0.2s;
+    }
+
+    .navbar-top-link:hover{
+      background-color: #b988d0;
+      color: #ffffff;
     }
   }
 }
