@@ -1,0 +1,38 @@
+.dsbd-transactions-section{
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  .dsbd-transactions-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 40px;
+    height: 670px;
+    width: 90%;
+
+    .top-table--div{
+      display: flex;
+      justify-content: center;
+      gap: 200px;
+      color: #ffffff;
+      font-size: 22px;
+    }
+
+    .top-down-table--div{
+      margin-top: 20px;
+      border-top: solid 1px #ffffff;
+      border-bottom: solid 1px #ffffff;
+      color: #ffffff;
+      height: 30px;
+      padding-top: 5px;
+      display: flex;
+      justify-content: center;
+      gap: 130px;
+    }
+  }
+}
+
+.dsbd-transactions-section--off{
+  display: none;
+}

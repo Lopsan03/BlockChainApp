@@ -1,6 +1,6 @@
-export const DsBdHome = () =>{
+export const DsBdHome = ({display}) =>{
     return(
-        <section className={"dsbd-home-section"}>
+        <section className={display ? "dsbd-home-section" : "dsbd-home-section--off"}>
             <article className={"dsbd-home-section"}>
                 <div className={"home-divisor--top"}>
                     <button>qwd</button>
