@@ -1,0 +1,28 @@
+.dsbd-pay-section{
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  .dsbd-pay-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+
+    .top-table--div{
+      width: 100%;
+
+      h4{
+        color: #ffffff;
+        text-align: center;
+        font-weight: 300;
+        font-size: 23px;
+      }
+    }
+  }
+}
+
+.dsbd-pay-section--off{
+  display: none;
+}

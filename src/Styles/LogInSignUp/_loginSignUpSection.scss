@@ -1,259 +1,264 @@
 //Login Section SCSS
-.login-section-true{
-  margin-top: 70px;
+.lg-general{
   width: 100%;
-  height: auto;
+  height: 860px;
 
-  .login-container{
-    margin: 0 auto;
-    width: 473px;
-    padding-top: 40px;
-    height: 606px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
+  .login-section-true{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
 
-    h2{
-      color: #ffffff;
-      text-align: center;
-      font-size: 50px;
-      font-weight: 300;
-    }
-
-    .login-container--input{
-      width: 300px;
+    .login-container{
       margin: 0 auto;
-      margin-top: 60px;
+      width: 473px;
+      padding-top: 40px;
+      height: 606px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
 
-      input{
-        margin-top: 40px;
-        background-color: rgba(0, 0, 0, 0);
+      h2{
         color: #ffffff;
-        border: none;
-        border-bottom: #fff solid 3px;
-        width: 100%;
-        font-size: 25px;
+        text-align: center;
+        font-size: 50px;
         font-weight: 300;
       }
 
-      input::placeholder{
-        color: #fff;
-        text-align: center;
+      .login-container--input{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        input{
+          margin-top: 40px;
+          background-color: rgba(0, 0, 0, 0);
+          color: #ffffff;
+          border: none;
+          border-bottom: #fff solid 3px;
+          width: 100%;
+          font-size: 25px;
+          font-weight: 300;
+        }
+
+        input::placeholder{
+          color: #fff;
+          text-align: center;
+        }
       }
-    }
 
-    .login-container--link{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      margin-top: 50px;
+      .login-container--link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 50px;
 
-      .login-link{
-        padding: 10px 50px;
-        border-radius: 10px;
-        background-color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        transition: 0.1s;
+        .login-link{
+          padding: 10px 50px;
+          border-radius: 10px;
+          background-color: #ffffff;
+          text-decoration: none;
+          text-align: center;
+          transition: 0.1s;
+        }
+
+        .login-link:hover{
+          background-color: #b988d0;
+          color: #ffffff;
+        }
       }
 
-      .login-link:hover{
-        background-color: #b988d0;
-        color: #ffffff;
-      }
-    }
+      .login-container--button{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
 
-    .login-container--button{
-      width: 100%;
-      margin: 0 auto;
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-
-      button{
-        background-color: rgba(0,0,0,0);
-        border: none;
-        color: #d2bae1;
-        line-height: 20px;
+        button{
+          background-color: rgba(0,0,0,0);
+          border: none;
+          color: #d2bae1;
+          line-height: 20px;
+        }
       }
     }
   }
-}
 
-.login-section-false{
-  display: none;
-}
+  .login-section-false{
+    display: none;
+  }
 
-//Signup Section SCSS
-.signup-section-true{
-  margin-top: 70px;
-  width: 100%;
-  height: auto;
+  //Signup Section SCSS
+  .signup-section-true{
+    margin-top: 100px;
+    width: 100%;
+    height: 86vh;
 
-  .signup-container{
-    margin: 0 auto;
-    width: 473px;
-    padding-top: 40px;
-    height: 636px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
-
-    h2{
-      color: #ffffff;
-      text-align: center;
-      font-size: 50px;
-      font-weight: 300;
-    }
-
-    .signup-container--input{
-      width: 300px;
+    .signup-container{
       margin: 0 auto;
-      margin-top: 30px;
+      width: 473px;
+      padding-top: 40px;
+      height: 636px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
 
-      input{
-        margin-top: 40px;
-        background-color: rgba(0, 0, 0, 0);
+      h2{
         color: #ffffff;
-        border: none;
-        border-bottom: #fff solid 3px;
-        width: 100%;
-        font-size: 25px;
+        text-align: center;
+        font-size: 50px;
         font-weight: 300;
       }
 
-      input::placeholder{
-        color: #fff;
-        text-align: center;
+      .signup-container--input{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        input{
+          margin-top: 40px;
+          background-color: rgba(0, 0, 0, 0);
+          color: #ffffff;
+          border: none;
+          border-bottom: #fff solid 3px;
+          width: 100%;
+          font-size: 25px;
+          font-weight: 300;
+        }
+
+        input::placeholder{
+          color: #fff;
+          text-align: center;
+        }
       }
-    }
 
-    .signup-container--link{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      margin-top: 60px;
-
-      .signup-button{
-        padding: 10px 50px;
-        border: none;
-        border-radius: 10px;
-        background-color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        transition: 0.1s;
-      }
-
-      .signup-button:hover{
-        background-color: #b988d0;
-        color: #ffffff;
-      }
-    }
-
-    .signup-container--button{
-      width: 100%;
-      margin: 0 auto;
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-
-      button{
-        background-color: rgba(0,0,0,0);
-        border: none;
-        color: #d2bae1;
-        line-height: 20px;
-      }
-    }
-  }
-}
-
-.signup-section-false{
-  display: none;
-}
-
-//Verification Section SCSS
-.verf-section-true{
-  margin-top: 180px;
-  width: 100%;
-  height: auto;
-
-  .verf-container{
-    margin: 0 auto;
-    width: 473px;
-    padding-top: 80px;
-    height: 473px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
-
-    h2{
-      color: #ffffff;
-      text-align: center;
-      font-size: 50px;
-      font-weight: 300;
-    }
-
-    .verf-container--input{
-      width: 300px;
-      margin: 0 auto;
-      margin-top: 30px;
-
-      input{
-        margin-top: 40px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #ffffff;
-        border: none;
-        border-bottom: #fff solid 3px;
+      .signup-container--link{
         width: 100%;
-        font-size: 25px;
-        font-weight: 300;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        .signup-button{
+          padding: 10px 50px;
+          border: none;
+          border-radius: 10px;
+          background-color: #ffffff;
+          text-decoration: none;
+          text-align: center;
+          transition: 0.1s;
+        }
+
+        .signup-button:hover{
+          background-color: #b988d0;
+          color: #ffffff;
+        }
       }
 
-      input::placeholder{
-        color: #fff;
-      }
-    }
+      .signup-container--button{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
 
-    .verf-container--link{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      margin-top: 60px;
-
-      .verf-button{
-        padding: 10px 50px;
-        border: none;
-        border-radius: 10px;
-        background-color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        transition: 0.1s;
-      }
-
-      .verf-button:hover{
-        background-color: #b988d0;
-        color: #ffffff;
-      }
-    }
-
-    .verf-container--button{
-      width: 100%;
-      margin: 0 auto;
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-
-      button{
-        background-color: rgba(0,0,0,0);
-        border: none;
-        color: #d2bae1;
-        line-height: 20px;
+        button{
+          background-color: rgba(0,0,0,0);
+          border: none;
+          color: #d2bae1;
+          line-height: 20px;
+        }
       }
     }
   }
-}
 
-.verf-section-false{
-  display: none;
+  .signup-section-false{
+    display: none;
+  }
+
+  //Verification Section SCSS
+  .verf-section-true{
+    margin-top: 100px;
+    width: 100%;
+    height: 86vh;
+
+    .verf-container{
+      margin: 0 auto;
+      width: 473px;
+      padding-top: 80px;
+      height: 473px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
+
+      h2{
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 300;
+      }
+
+      .verf-container--input{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        input{
+          margin-top: 40px;
+          background-color: rgba(0, 0, 0, 0);
+          color: #ffffff;
+          border: none;
+          border-bottom: #fff solid 3px;
+          width: 100%;
+          font-size: 25px;
+          font-weight: 300;
+          text-align: center;
+        }
+
+        input::placeholder{
+          color: #fff;
+        }
+      }
+
+      .verf-container--link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 60px;
+
+        .verf-button{
+          padding: 10px 50px;
+          border: none;
+          border-radius: 10px;
+          background-color: #ffffff;
+          text-decoration: none;
+          text-align: center;
+          transition: 0.1s;
+        }
+
+        .verf-button:hover{
+          background-color: #b988d0;
+          color: #ffffff;
+        }
+      }
+
+      .verf-container--button{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+        button{
+          background-color: rgba(0,0,0,0);
+          border: none;
+          color: #d2bae1;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .verf-section-false{
+    display: none;
+  }
 }

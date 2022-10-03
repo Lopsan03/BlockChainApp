@@ -26,7 +26,7 @@ export const LoginSignUpSection = () =>{
     }
 
     return(
-        <>
+        <section className={"lg-general"}>
             {/*Login Section*/}
             <section className={logInDisplay ? "login-section-true" : "login-section-false"}>
                 <article className={"login-container"}>
@@ -78,6 +78,6 @@ export const LoginSignUpSection = () =>{
                     </div>
                 </article>
             </section>
-        </>
+        </section>
     )
 }
